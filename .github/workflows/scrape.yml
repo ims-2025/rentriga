@@ -1,0 +1,103 @@
+name: Scrape sources and update listings
+
+on:
+  # Every 6 hours. Cron uses UTC. Adjust if you want different cadence.
+  schedule:
+    - cron: "15 */6 * * *"
+  # Allow manual triggering from the Actions tab
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max listings per (source x type)"
+        required: false
+        default: "20"
+      live:
+        description: "Run live scrape (true) or use offline fixtures (false)"
+        required: false
+        default: "true"
+
+# Allow this workflow to push back to the repo
+permissions:
+  contents: write
+
+# Don't queue overlapping runs
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # We need write access to commit data.js back
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Full history isn't needed; shallow clone is fine
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+
+      - name: Run scrapers
+        id: scrape
+        working-directory: scraper
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          MODE_FLAG="--live"
+          if [ "${{ github.event.inputs.live }}" = "false" ]; then
+            MODE_FLAG="--fixtures"
+          fi
+          LIMIT="${{ github.event.inputs.limit || '20' }}"
+          set +e
+          python run_all.py $MODE_FLAG --limit "$LIMIT" > run_summary.json
+          EXIT_CODE=$?
+          set -e
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          echo "--- Run summary ---"
+          cat run_summary.json || true
+          # Fail the run only if NO listings came back at all — partial source failures are tolerated.
+          if [ ! -s ../data/listings.json ]; then
+            echo "::warning::No listings produced — sources may be blocking us."
+          fi
+
+      - name: Commit and push updated data.js
+        run: |
+          git config user.name "RentRiga Bot"
+          git config user.email "bot@rentriga.com"
+
+          # Stage only generated files
+          git add assets/js/data.js data/listings.json scraper/last_run.json 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          COUNT=$(grep -c 'id:"' assets/js/data.js || echo "?")
+          git commit -m "Scrape update: $(date -u +%Y-%m-%dT%H:%MZ) ($COUNT total listings)"
+          git push
+
+      - name: Upload run summary as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-run-summary
+          path: |
+            scraper/run_summary.json
+            scraper/last_run.json
+            data/listings.json
+          retention-days: 14

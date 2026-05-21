@@ -515,6 +515,29 @@
     }
   };
 
+  /* ---------- Freshness indicator ---------- */
+  function relativeTime(iso){
+    if(!iso) return null;
+    const t = Date.parse(iso);
+    if(isNaN(t)) return null;
+    const diff = Math.max(0, (Date.now() - t) / 1000);
+    if(diff < 60)        return Math.floor(diff) + "s ago";
+    if(diff < 3600)      return Math.floor(diff/60) + " min ago";
+    if(diff < 86400)     return Math.floor(diff/3600) + " h ago";
+    return Math.floor(diff/86400) + " d ago";
+  }
+  function renderFreshness(){
+    const iso = window.RR_LAST_UPDATED;
+    if(!iso) return;
+    const rel = relativeTime(iso);
+    $$(".js-fresh").forEach(el=>{
+      el.innerHTML = `<span style="display:inline-flex;align-items:center;gap:6px;font-size:.78rem;color:var(--muted)">
+        <span style="width:8px;height:8px;border-radius:50%;background:#1f9d6a;box-shadow:0 0 0 3px rgba(31,157,106,.18);display:inline-block;animation:rrpulse 2s ease-in-out infinite"></span>
+        Listings refreshed ${rel}
+      </span>`;
+    });
+  }
+
   /* ---------- Boot ---------- */
   document.addEventListener("DOMContentLoaded", ()=>{
     initHeader();
@@ -522,5 +545,6 @@
     initHome();
     initListingsPage();
     initDetail();
+    renderFreshness();
   });
 })();

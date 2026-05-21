@@ -1,130 +1,131 @@
 # RentRiga scrapers
 
-A small Python codebase that pulls rental listings from source portals and
-normalizes them into RentRiga's listing schema. This folder contains a
-**prototype** scraper for `ss.lv` to prove the end-to-end flow.
+A modular Python framework that pulls rental listings from source portals
+and normalizes them into RentRiga's listing schema. Runs free on GitHub
+Actions every 6 hours and commits updated `data.js` back to the repo;
+Vercel auto-redeploys.
 
-> **Read this before running anything against a live source.**
+## Architecture
 
-## What this prototype does
-
-`ss_lv.py` fetches one or more index pages of Riga apartment rentals from
-ss.lv, parses each row, normalizes prices/districts/area, and emits JSON
-matching RentRiga's `Listing` schema.
-
-It deliberately ships with very conservative defaults:
-
-- Respects `robots.txt` — fails closed if the path isn't allowed.
-- Identifies as `RentRigaBot/0.1 (+contact)` so the source can contact you.
-- 3-second delay between requests.
-- Default `--limit 10` and `--pages 1` (≈ 11 requests total).
-- Hard cap of 200 listings per run no matter what CLI args say.
-- Defaults to printing JSON to stdout; nothing is written unless you pass `--out`.
-
-## Before going live
-
-1. Open https://www.ss.lv/robots.txt and confirm the path
-   `/lv/real-estate/flats/riga/` is allowed for general user-agents. If it
-   isn't, stop — switch to a partnership request instead.
-2. Read ss.lv's Terms of Service. The cleanest path is a written data-feed
-   agreement; scraping should be a fallback.
-3. Decide which fields you may persist. Phone numbers must be masked
-   (see [Privacy Policy](../privacy.html)).
-4. Set up a real cron schedule (every 15–30 minutes), error monitoring (Sentry),
-   and a healthcheck that pages you when new-listing volume drops > 40%
-   versus the 7-day moving average.
-
-## Install
-
-```bash
-cd scraper
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 ```
+scraper/
+├── base.py             ← Framework: SourceAdapter base class, PoliteFetcher,
+│                          shared parsers (parse_price, normalize_district,
+│                          dedup_hash, fingerprint), canonical district list
+├── ss_lv.py            ← ss.lv adapter (apartments, houses, commercial, short-term)
+├── varianti_lv.py      ← varianti.lv adapter
+├── run_all.py          ← Orchestrator: runs every adapter, dedupes across
+│                          sources, writes assets/js/data.js + data/listings.json
+├── merge_into_demo.py  ← Standalone tool to merge a single JSON file into data.js
+├── test_fixture.html         ← ss.lv offline test fixture
+├── test_fixture_varianti.html ← varianti.lv offline test fixture
+├── requirements.txt    ← beautifulsoup4
+└── README.md           ← (this file)
+```
+
+## How to add a new source
+
+Each adapter is ~80 lines. Copy `varianti_lv.py` as a template, change three
+things:
+
+```python
+class NewSourceLv(SourceAdapter):
+    DOMAIN = "newsource.lv"                              # 1) the domain
+    START_URLS = {                                       # 2) start URLs per type
+        "apartment": "https://newsource.lv/rent/flats",
+        "house":     "https://newsource.lv/rent/houses",
+    }
+
+    def parse_index(self, html, listing_type):           # 3) HTML -> raw dicts
+        s = soup(html)
+        for card in s.select(".listing"):
+            ...
+            yield {
+                "source_id": "...", "source_url": "...",
+                "title": "...", "district_raw": "...", "street": "...",
+                "price": 720, "rooms": 2, "area": 58, "image": "...",
+            }
+```
+
+Then register it in `run_all.py`:
+
+```python
+from new_source_lv import NewSourceLv
+ADAPTERS = [VariantiLv, SsLv, NewSourceLv]
+```
+
+The orchestrator handles normalization, deduplication, persistence, and the
+data.js update for free.
 
 ## Use
 
-**Offline test (recommended first run).** Save one ss.lv listings page as
-`sample.html` from your browser and run:
+### Offline smoke test
 
 ```bash
-python ss_lv.py --from-file sample.html --dry-run
+cd scraper
+pip install -r requirements.txt
+
+# Single adapter against its fixture:
+python ss_lv.py --from-file test_fixture.html --type apartment --dry-run
+
+# Full pipeline against all fixtures:
+python run_all.py --fixtures
 ```
 
-**Live, polite, tiny.** One page, ten listings, three-second delay, dry-run:
+### Polite live test
 
 ```bash
-python ss_lv.py --live --pages 1 --limit 10 --dry-run
+python run_all.py --live --limit 10
 ```
 
-**Write to disk.**
+Defaults are conservative: 3-second delay between requests, robots.txt
+respected, 500-listing hard cap, 20 listings per (source × type).
 
-```bash
-python ss_lv.py --live --pages 1 --limit 10 --out scraped.json
-```
+### Outputs
 
-## Output shape
+- `data/listings.json` — full audit trail of every listing scraped this run
+- `assets/js/data.js` — the live demo's data, with scraped listings prepended
+  to the curated sample listings (which stay as a fallback)
+- `scraper/last_run.json` — per-source success/count/error summary for healthcheck
 
-```json
-{
-  "meta": {
-    "source": "ss.lv",
-    "scraped_at": "2026-05-21T08:42:31Z",
-    "count": 10
-  },
-  "listings": [
-    {
-      "id": "ss-aaabbb",
-      "source_id": "aaabbb",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/lv/real-estate/flats/riga/.../aaabbb.html",
-      "type": "apartment",
-      "title": "Quiet 2-room in centre",
-      "district": "Centrs",
-      "street": "Brīvības iela 102",
-      "price": 650,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 58.0,
-      "floor": "3/5",
-      "image": "https://i.ss.lv/.../aaabbb.jpg",
-      "amenities": [],
-      "dedup_hash": "a1b2c3d4e5f6"
-    }
-  ]
-}
-```
+## Production safeguards
 
-## Next steps to make this production-grade
+| Safeguard | How |
+|---|---|
+| robots.txt respect | `PoliteFetcher.allowed()` calls `RobotFileParser.can_fetch()` — fails closed if robots.txt can't load |
+| Rate limiting | 3 seconds between requests by default (`--delay`) |
+| Friendly identity | `User-Agent: RentRigaBot/0.2 (+https://rentriga.com/about; contact: hello@rentriga.com)` |
+| Hard cap | 500 listings per run, regardless of CLI args |
+| Per-source isolation | A failing source logs the error and continues with the next — other sources still update |
+| Audit trail | `data/listings.json` keeps a record of every successful scrape |
 
-The prototype is intentionally minimal. To turn it into the production scraper
-fleet described in the architecture document, layer the following on top:
+## GitHub Actions
 
-1. **Detail-page enrichment.** After parsing the index, fetch each listing's
-   detail page (politely, max 1 per 3 seconds) to collect: full description,
-   image gallery, floor max, year built, amenities, lat/lng from the on-page
-   map.
-2. **Persistence.** Upsert into PostgreSQL via SQLAlchemy. Match on `(source,
-   source_id)` for the same row; cross-source dedup uses `dedup_hash` +
-   perceptual image hash.
-3. **Image mirroring.** Download each image once, upload to S3 / Cloudflare R2
-   with attribution metadata, then store our CDN URL on the listing.
-4. **Geocoding.** Run the address through Nominatim (self-hosted) or Google
-   Geocoding API and snap to a district polygon (PostGIS).
-5. **Translation.** Run titles and descriptions through DeepL or a self-hosted
-   NLLB model to produce `_lv`, `_ru`, `_en` variants.
-6. **Scheduling.** Wrap in a BullMQ or RQ job; run every 15 minutes for P0
-   sources, with per-source backoff if errors spike.
-7. **Healthcheck.** Compare today's new-listing count to a 7-day moving
-   average. Page on >40% drop or >2x spike (likely parsing failure).
-8. **Per-source adapters.** Add `city24.py`, `mm_lv.py`, `varianti.py`,
-   `inch.py`, `latio.py`, `ober_haus.py` following the same pattern.
+The workflow at `.github/workflows/scrape.yml` runs the orchestrator every
+6 hours and commits `assets/js/data.js` if it changed. Vercel auto-deploys
+on the resulting push. You can also trigger it manually:
+
+1. Go to **Actions** tab in your GitHub repo
+2. Pick **"Scrape sources and update listings"**
+3. Click **Run workflow**, optionally tweak the `live` and `limit` inputs
+
+## Before pointing this at any real portal
+
+For each source:
+
+1. Open `https://www.<source>/robots.txt` and confirm the path you're
+   targeting is allowed.
+2. Read the source's Terms of Service. Aggregation usually needs a feed
+   agreement long-term; scraping is a stopgap.
+3. Verify your selectors against the live HTML — sites do change, and our
+   placeholder selectors in `varianti_lv.py` may need tweaking.
+4. Start with `--limit 5 --dry-run` and check the JSON output before
+   committing to a real run.
 
 ## Disclaimer
 
-This prototype is provided as a starting point. The legality of scraping
-specific sites depends on the site's Terms of Service, robots.txt, and the
-content involved. Always seek legal counsel before deploying scrapers to
-production.
+The legality of scraping a specific site depends on its Terms of Service,
+robots.txt, and the content involved. Always seek legal counsel before
+deploying scrapers to production. The architecture document
+`RentRiga_Architecture_and_Strategy.docx` (Section 3) covers the EU/Latvian
+posture in detail.
