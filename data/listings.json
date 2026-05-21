@@ -7,13 +7,13 @@
       },
       "ss.lv": {
         "status": "ok",
-        "count": 4
+        "count": 5
       }
     },
-    "started_at": "2026-05-21T09:24:51Z",
+    "started_at": "2026-05-21T09:39:34Z",
     "mode": "fixtures",
-    "finished_at": "2026-05-21T09:24:51Z",
-    "total_listings": 7
+    "finished_at": "2026-05-21T09:39:34Z",
+    "total_listings": 8
   },
   "listings": [
     {
@@ -36,8 +36,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "f65437192da7514b"
     },
     {
@@ -60,8 +60,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "1fb5fa4eda6ba5b0"
     },
     {
@@ -84,8 +84,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "b026a8a75a9c38c0"
     },
     {
@@ -108,8 +108,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "9f1ceb66db27dcdc"
     },
     {
@@ -132,8 +132,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "4e470b2a23f4b33b"
     },
     {
@@ -156,8 +156,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "b930f61356b35ec8"
     },
     {
@@ -180,9 +180,33 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-05-21T09:24:51Z",
-      "last_seen": "2026-05-21T09:24:51Z",
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
       "dedup_hash": "ed125be28e8c2378"
+    },
+    {
+      "id": "ss-lv-eibdp",
+      "source_id": "eibdp",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/lv/real-estate/flats/riga/imanta/eibdp.html",
+      "type": "apartment",
+      "title": "Izīrē dzīvokli ar 2 izolētām istabām, lodžiju, plašu virtuvi, wc",
+      "district": "Imanta",
+      "street": "Dammes 4",
+      "price": 320.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 49.0,
+      "floor": "7/9",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1500/374991/74998029.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-05-21T09:39:34Z",
+      "last_seen": "2026-05-21T09:39:34Z",
+      "dedup_hash": "cf5af924857544fe"
     }
   ]
 }

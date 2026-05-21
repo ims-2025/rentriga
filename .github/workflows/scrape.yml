@@ -10,7 +10,7 @@ on:
       limit:
         description: "Max listings per (source x type)"
         required: false
-        default: "20"
+        default: "80"
       live:
         description: "Run live scrape (true) or use offline fixtures (false)"
         required: false
@@ -61,7 +61,7 @@ jobs:
           if [ "${{ github.event.inputs.live }}" = "false" ]; then
             MODE_FLAG="--fixtures"
           fi
-          LIMIT="${{ github.event.inputs.limit || '20' }}"
+          LIMIT="${{ github.event.inputs.limit || '80' }}"
           set +e
           python run_all.py $MODE_FLAG --limit "$LIMIT" > run_summary.json
           EXIT_CODE=$?

@@ -53,7 +53,7 @@ DISTRICT_ALIASES = {
 USER_AGENT = "RentRigaBot/0.2 (+https://rentriga.com/about; contact: hello@rentriga.com)"
 DEFAULT_DELAY_SECONDS = 3.0
 DEFAULT_TIMEOUT       = 20
-MAX_LISTINGS_HARD_CAP = 500  # global per-run cap across all adapters
+MAX_LISTINGS_HARD_CAP = 800  # global per-run cap across all adapters
 
 # ---------- Listing schema ----------------------------------------------------
 

@@ -47,6 +47,13 @@ TYPES_PER_SOURCE = {
     "varianti.lv": ["apartment", "house", "commercial"],
 }
 
+# How many index pages to crawl per source per category.
+# ss.lv shows ~30 listings/page; 4 pages * 4 categories ≈ 480 listings before dedup.
+PAGES_PER_SOURCE = {
+    "ss.lv":       4,
+    "varianti.lv": 2,
+}
+
 # Local fixture paths for --fixtures mode (offline smoke test)
 FIXTURES = {
     "ss.lv":       Path(__file__).resolve().parent / "test_fixture.html",
@@ -54,13 +61,18 @@ FIXTURES = {
 }
 
 
-def run_live(limit_per_type=20):
+def run_live(limit_per_type=80):
     fetcher = PoliteFetcher()
     all_listings = []
     summary = {"sources": {}, "started_at": _now(), "mode": "live"}
 
     for AdapterCls in ADAPTERS:
-        adapter = AdapterCls(fetcher)
+        pages = PAGES_PER_SOURCE.get(AdapterCls.DOMAIN, 1)
+        # Adapters that accept a `pages` kwarg (currently SsLv) get it; others ignore.
+        try:
+            adapter = AdapterCls(fetcher, pages=pages)
+        except TypeError:
+            adapter = AdapterCls(fetcher)
         types = TYPES_PER_SOURCE.get(adapter.DOMAIN, ["apartment"])
         before = len(all_listings)
         try:
@@ -231,7 +243,7 @@ def main():
     grp = ap.add_mutually_exclusive_group(required=True)
     grp.add_argument("--live", action="store_true", help="Run real network scrapes")
     grp.add_argument("--fixtures", action="store_true", help="Use bundled HTML fixtures (offline)")
-    ap.add_argument("--limit", type=int, default=20, help="Listings per (source × type)")
+    ap.add_argument("--limit", type=int, default=80, help="Listings per (source × type)")
     ap.add_argument("--no-write", action="store_true", help="Don't update data.js")
     args = ap.parse_args()
 
