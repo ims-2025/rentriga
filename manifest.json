@@ -1,0 +1,15 @@
+{
+  "name": "RentRiga — Every rental in Riga, in one place",
+  "short_name": "RentRiga",
+  "description": "Aggregating Riga's biggest rental portals into one premium search experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0d6b6b",
+  "lang": "en",
+  "categories": ["lifestyle", "shopping", "navigation"],
+  "icons": [
+    { "src": "/assets/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/assets/icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

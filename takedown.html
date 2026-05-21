@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Takedown / Removal request — RentRiga</title>
+<meta name="description" content="Request removal of a listing or content from RentRiga.com — copyright, database rights, or personal data.">
+<meta name="robots" content="noindex,follow">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/icon-192.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0d6b6b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<style>
+  .legal{max-width:780px;margin:0 auto;padding:60px 22px 80px}
+  .legal h1{font-size:2.3rem;margin-bottom:6px}
+  .legal h2{font-size:1.3rem;margin-top:32px}
+  .legal p, .legal li{font-size:1rem;line-height:1.65;color:var(--ink-2)}
+  .legal ul{padding-left:22px}
+  .legal .meta{color:var(--muted);font-size:.92rem;margin-bottom:30px}
+  .form-grid{display:grid;gap:12px;margin-top:18px}
+  .form-grid label{display:block;font-weight:600;font-size:.9rem;color:var(--ink-2);margin-bottom:4px}
+  .form-grid input, .form-grid textarea, .form-grid select{
+    width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-size:.95rem;background:var(--surface-2);
+  }
+  .form-grid textarea{min-height:120px;resize:vertical}
+  .legal .pledge{background:var(--surface-2);border-left:3px solid var(--primary);padding:14px 16px;border-radius:8px;color:var(--ink-2);font-size:.95rem;margin:24px 0}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/index.html"><span class="brand-mark"><span>R</span></span>Rent<b>Riga</b></a>
+    <div class="nav-spacer"></div>
+    <a class="btn btn-ghost btn-sm" href="/listings.html">Browse rentals</a>
+  </div>
+</header>
+
+<main class="legal">
+  <h1>Takedown / Removal request</h1>
+  <p class="meta">Use this form to ask us to remove content from RentRiga.</p>
+
+  <div class="pledge">
+    <b>Our pledge.</b> We aim to action valid takedown requests within <b>24 hours</b>. We may ask for evidence (proof of rights, identity) before final removal, but the listing will be hidden from search in the meantime.
+  </div>
+
+  <p>Use this form if you are:</p>
+  <ul>
+    <li>A copyright owner whose photographs or descriptions appear without permission;</li>
+    <li>A database-rights holder under EU Directive 96/9/EC;</li>
+    <li>A landlord or agency whose personal data (phone, email) appears in a listing and you want it masked or removed;</li>
+    <li>A user reporting that a listing is fraudulent, expired, or otherwise misleading.</li>
+  </ul>
+
+  <h2>Submit your request</h2>
+  <form class="form-grid" onsubmit="event.preventDefault();this.innerHTML='<div style=\'padding:30px 10px;text-align:center;color:#0c6a44\'><div style=\'font-size:34px\'>✓</div><p style=\'font-weight:600\'>Request received. We will reply to your email within 24 hours.</p></div>'">
+    <div>
+      <label>Your name</label>
+      <input type="text" required>
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="email" required>
+    </div>
+    <div>
+      <label>Capacity</label>
+      <select required>
+        <option value="">Choose…</option>
+        <option>Rights holder / their representative</option>
+        <option>Landlord whose data appears</option>
+        <option>Agency representative</option>
+        <option>User reporting fraudulent / outdated content</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div>
+      <label>Listing URL or ID</label>
+      <input type="text" placeholder="https://rentriga.com/listing.html?id=a-1001 or 'a-1001'" required>
+    </div>
+    <div>
+      <label>Reason for removal</label>
+      <textarea placeholder="Describe the issue. If you are a rights holder, identify the work and explain how you hold rights to it. We may ask for evidence." required></textarea>
+    </div>
+    <div>
+      <label><input type="checkbox" required> I confirm that the statements above are accurate and made in good faith.</label>
+    </div>
+    <button type="submit" class="btn btn-primary" style="width:fit-content">Submit takedown request</button>
+  </form>
+
+  <h2>Or contact us directly</h2>
+  <p>Email <a href="mailto:takedown@rentriga.com">takedown@rentriga.com</a> with the same information. For legal service of notices, the registered postal address of RentRiga SIA is published in our <a href="/privacy.html">Privacy Policy</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-bottom">
+      <span>© 2026 RentRiga.com — All rights reserved</span>
+      <span>Made with care in Rīga</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

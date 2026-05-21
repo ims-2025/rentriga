@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RentRiga — Every rental in Riga, in one place</title>
+<meta name="description" content="RentRiga aggregates rental listings from ss.lv, city24.lv, mm.lv and 25+ other Latvian property portals. Find your next apartment, house, office or short-stay in Riga — all in one search.">
+<meta name="keywords" content="rent Riga, Riga apartments, dzīvokļi īrei Rīga, аренда Рига, Riga property rental, short-term Riga, Riga commercial space, real estate Riga aggregator">
+<meta name="author" content="RentRiga.com">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://rentriga.com/">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="RentRiga — Every rental in Riga, in one place">
+<meta property="og:description" content="Aggregating Riga's 30 biggest rental portals into one premium search experience.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1561553873-e8491a564fd0?w=1200">
+<meta property="og:url" content="https://rentriga.com/">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="lv_LV">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- hreflang for SEO -->
+<link rel="alternate" hreflang="en" href="https://rentriga.com/en/">
+<link rel="alternate" hreflang="lv" href="https://rentriga.com/lv/">
+<link rel="alternate" hreflang="ru" href="https://rentriga.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://rentriga.com/">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/svg+xml" href="/assets/icons/icon-192.svg">
+<link rel="apple-touch-icon" href="/assets/icons/icon-512.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0d6b6b">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "RentRiga",
+  "url": "https://rentriga.com/",
+  "description": "Premium rental aggregator for Riga, Latvia. Aggregating apartments, houses, commercial spaces and short-term rentals from 30+ portals.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://rentriga.com/listings.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "RentRiga",
+  "url": "https://rentriga.com",
+  "logo": "https://rentriga.com/logo.svg",
+  "areaServed": { "@type": "City", "name": "Riga", "containedInPlace": { "@type": "Country", "name": "Latvia" } },
+  "sameAs": ["https://www.facebook.com/rentriga", "https://www.instagram.com/rentriga"]
+}
+</script>
+</head>
+<body class="js-home">
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>R</span></span>
+      Rent<b>Riga</b>
+    </a>
+    <nav class="nav-links">
+      <a href="listings.html" data-t="nav.browse">Browse</a>
+      <a href="listings.html?type=apartment" data-t="nav.apartments">Apartments</a>
+      <a href="listings.html?type=house" data-t="nav.houses">Houses</a>
+      <a href="listings.html?type=commercial" data-t="nav.commercial">Commercial</a>
+      <a href="listings.html?type=short_term" data-t="nav.shortterm">Short-term</a>
+    </nav>
+    <div class="nav-spacer"></div>
+    <div class="nav-tools">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="lv">LV</button>
+        <button data-lang="ru">RU</button>
+      </div>
+      <a class="btn btn-ghost btn-sm" href="#" data-t="nav.list">List your property</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <small style="color:var(--accent);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.78rem" data-t="hero.eyebrow">Every rental in Riga, in one place</small>
+    <h1 style="margin-top:14px">
+      <span data-t="hero.title_a">Find your next home in</span>
+      <em data-t="hero.title_b">Riga</em>
+      <span data-t="hero.title_c">— from every portal at once.</span>
+    </h1>
+    <p class="lead" data-t="hero.lead">RentRiga aggregates listings from 30+ Latvian rental websites every hour, removes duplicates, and gives you one fast, beautiful place to search.</p>
+
+    <div class="hero-meta">
+      <span><b class="js-stat-listings">42</b><span data-t="hero.stat1">live listings</span></span>
+      <span><b class="js-stat-sources">30</b><span data-t="hero.stat2">sources scraped</span></span>
+      <span><b>⟳</b><span data-t="hero.stat3">updated hourly</span></span>
+    </div>
+
+    <div class="search-tabs" style="margin-top:30px">
+      <button class="active" data-tab="" data-t="tab.rent">Long-term rent</button>
+      <button data-tab="short_term" data-t="tab.short">Short-term</button>
+      <button data-tab="commercial" data-t="tab.commercial">Commercial</button>
+      <button data-tab="house" data-t="tab.house">Houses</button>
+    </div>
+
+    <form id="heroSearch" class="search-card" autocomplete="off">
+      <div class="search-field">
+        <label data-t="search.where">Where?</label>
+        <input id="fWhere" list="districtList" data-t-ph="search.where_ph" placeholder="District, street or address">
+        <datalist id="districtList"></datalist>
+      </div>
+      <div class="search-field">
+        <label data-t="search.type">Property type</label>
+        <select id="fType">
+          <option value="" data-t="search.any">Any</option>
+          <option value="apartment" data-t="cats.apt">Apartments</option>
+          <option value="house" data-t="cats.hs">Houses</option>
+          <option value="commercial" data-t="cats.cm">Commercial</option>
+          <option value="short_term" data-t="cats.st">Short-term</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label data-t="search.rooms">Rooms</label>
+        <select id="fRooms">
+          <option value="" data-t="search.any">Any</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4+</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label data-t="search.price">Max price (€)</label>
+        <input id="fPrice" type="number" min="0" step="50" placeholder="2000">
+      </div>
+      <button type="submit" class="btn btn-primary" data-t="search.search">Search</button>
+    </form>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="trust">
+  <div class="container trust-row">
+    <div><div class="big js-stat-listings">42</div><small data-t="trust.t1">live listings</small></div>
+    <div><div class="big js-stat-sources">30</div><small data-t="trust.t2">portals aggregated</small></div>
+    <div><div class="big js-stat-districts">22</div><small data-t="trust.t3">districts covered</small></div>
+    <div><div class="big">60 min</div><small data-t="trust.t4">updated hourly</small></div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-t="cats.title">Browse by category</span>
+        <h2>Apartments, houses, offices and short stays</h2>
+      </div>
+    </div>
+    <div class="cat-grid">
+      <a class="cat-card" href="listings.html?type=apartment">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&q=70&auto=format&fit=crop" alt="Apartments in Riga">
+        <div class="ov"></div>
+        <div class="meta"><small data-t="cats.apt_sub">Studios to family flats</small><h3 data-t="cats.apt">Apartments</h3></div>
+      </a>
+      <a class="cat-card" href="listings.html?type=house">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=70&auto=format&fit=crop" alt="Houses in Riga">
+        <div class="ov"></div>
+        <div class="meta"><small data-t="cats.hs_sub">Detached, townhouses</small><h3 data-t="cats.hs">Houses & villas</h3></div>
+      </a>
+      <a class="cat-card" href="listings.html?type=commercial">
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=70&auto=format&fit=crop" alt="Commercial in Riga">
+        <div class="ov"></div>
+        <div class="meta"><small data-t="cats.cm_sub">Offices, retail, warehouse</small><h3 data-t="cats.cm">Commercial space</h3></div>
+      </a>
+      <a class="cat-card" href="listings.html?type=short_term">
+        <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=900&q=70&auto=format&fit=crop" alt="Short-term Riga">
+        <div class="ov"></div>
+        <div class="meta"><small data-t="cats.st_sub">Nightly &amp; monthly</small><h3 data-t="cats.st">Short-term stays</h3></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED -->
+<section class="section section-sm" style="background:var(--surface-2)">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-t="feat.title">Featured listings</span>
+        <h2 data-t="feat.sub">Hand-picked across every source — updated this hour</h2>
+      </div>
+      <div class="actions"><a class="btn btn-ghost" href="listings.html" data-t="feat.view_all">View all</a></div>
+    </div>
+    <div id="featuredGrid" class="listings-grid"></div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-t="how.eyebrow">How RentRiga works</span>
+        <h2 data-t="how.title">One search. Every portal.</h2>
+      </div>
+    </div>
+    <div class="how">
+      <div class="how-step">
+        <div class="num">1</div>
+        <h3 data-t="how.step1_t">We scan every Latvian rental site</h3>
+        <p class="muted" data-t="how.step1_b">Our crawlers visit ss.lv, city24.lv, mm.lv and 25+ others every hour to find new listings.</p>
+      </div>
+      <div class="how-step">
+        <div class="num">2</div>
+        <h3 data-t="how.step2_t">We clean and de-duplicate</h3>
+        <p class="muted" data-t="how.step2_b">Smart matching removes the same flat listed on five sites — you see each property once, with the cheapest price.</p>
+      </div>
+      <div class="how-step">
+        <div class="num">3</div>
+        <h3 data-t="how.step3_t">You contact the source directly</h3>
+        <p class="muted" data-t="how.step3_b">No middleman fees. We link straight to the original landlord or agency listing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="section sources">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" style="color:var(--accent)" data-t="src.eyebrow">Coverage</span>
+        <h2 data-t="src.title">Aggregating Riga's biggest rental portals</h2>
+        <p class="lead" data-t="src.lead">RentRiga continuously monitors the top 30 Latvian property sites so you never have to open them one by one.</p>
+      </div>
+    </div>
+    <div class="source-pills" id="sourcePills"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="color:#fff">
+          <span class="brand-mark"><span>R</span></span>
+          Rent<b style="color:var(--accent)">Riga</b>
+        </div>
+        <p style="margin-top:14px;max-width:36ch" data-t="foot.tagline">Riga's premium rental aggregator. Every listing, one place.</p>
+      </div>
+      <div>
+        <h4 data-t="foot.explore">Explore</h4>
+        <a href="listings.html?type=apartment" data-t="nav.apartments">Apartments</a>
+        <a href="listings.html?type=house" data-t="nav.houses">Houses</a>
+        <a href="listings.html?type=commercial" data-t="nav.commercial">Commercial</a>
+        <a href="listings.html?type=short_term" data-t="nav.shortterm">Short-term</a>
+      </div>
+      <div>
+        <h4 data-t="foot.help">Help</h4>
+        <a href="#" data-t="foot.about">About</a>
+        <a href="#" data-t="foot.faq">FAQ</a>
+        <a href="#" data-t="foot.contact">Contact</a>
+      </div>
+      <div>
+        <h4 data-t="foot.company">Company</h4>
+        <a href="terms.html" data-t="foot.terms">Terms</a>
+        <a href="privacy.html" data-t="foot.privacy">Privacy</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="takedown.html">Takedown</a>
+        <a href="mailto:hello@rentriga.com">hello@rentriga.com</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-t="foot.rights">© 2026 RentRiga.com — All rights reserved</span>
+      <span>Made with care in Rīga</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+  /* Render source pills (no translation needed) */
+  document.addEventListener("DOMContentLoaded", ()=>{
+    document.getElementById("sourcePills").innerHTML =
+      window.RR_SOURCES.map(s => `<span>${s}</span>`).join("");
+  });
+</script>
+</body>
+</html>

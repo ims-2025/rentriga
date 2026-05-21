@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Browse rentals in Riga — RentRiga</title>
+<meta name="description" content="Search every rental listing in Riga — apartments, houses, commercial space and short-term stays — aggregated from 30+ Latvian property portals.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://rentriga.com/listings.html">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/icon-192.svg">
+<link rel="apple-touch-icon" href="/assets/icons/icon-512.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0d6b6b">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="js-listings">
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>R</span></span>
+      Rent<b>Riga</b>
+    </a>
+    <nav class="nav-links">
+      <a href="listings.html" class="active" data-t="nav.browse">Browse</a>
+      <a href="listings.html?type=apartment" data-t="nav.apartments">Apartments</a>
+      <a href="listings.html?type=house" data-t="nav.houses">Houses</a>
+      <a href="listings.html?type=commercial" data-t="nav.commercial">Commercial</a>
+      <a href="listings.html?type=short_term" data-t="nav.shortterm">Short-term</a>
+    </nav>
+    <div class="nav-spacer"></div>
+    <div class="nav-tools">
+      <div class="lang-switch">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="lv">LV</button>
+        <button data-lang="ru">RU</button>
+      </div>
+      <a class="btn btn-ghost btn-sm" href="#" data-t="nav.list">List your property</a>
+    </div>
+  </div>
+</header>
+
+<!-- Search bar (compact) -->
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs">
+      <a href="index.html">RentRiga</a> &nbsp;›&nbsp;
+      <span data-t="nav.browse">Browse</span>
+    </div>
+    <h1 style="font-size:1.7rem;margin-bottom:10px">Rentals in Riga</h1>
+
+    <div class="search-bar-compact" id="quickBar">
+      <div class="search-field">
+        <label data-t="search.where">Where?</label>
+        <input id="fQ" data-t-ph="search.where_ph" placeholder="District, street or address">
+      </div>
+      <div class="search-field">
+        <label data-t="lst.type">Property type</label>
+        <select id="fTypeSel">
+          <option value="" data-t="search.any">Any</option>
+          <option value="apartment" data-t="cats.apt">Apartments</option>
+          <option value="house" data-t="cats.hs">Houses</option>
+          <option value="commercial" data-t="cats.cm">Commercial</option>
+          <option value="short_term" data-t="cats.st">Short-term</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label data-t="lst.sort">Sort</label>
+        <select id="fSort" class="sort-select" style="border:0;background:transparent;padding:0">
+          <option value="new" data-t="lst.sort_new">Newest first</option>
+          <option value="lowhi" data-t="lst.sort_lowhi">Price: low to high</option>
+          <option value="hilo" data-t="lst.sort_hilo">Price: high to low</option>
+          <option value="m2" data-t="lst.sort_m2">Largest first</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label data-t="lst.results">Results</label>
+        <span id="resCount" style="padding-top:6px;font-weight:600"></span>
+      </div>
+      <div class="view-toggle">
+        <button class="active" data-v="grid" data-t="lst.grid">Grid</button>
+        <button data-v="list" data-t="lst.list">List</button>
+        <button data-v="map" data-t="lst.map">Map</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container layout">
+
+    <!-- FILTERS -->
+    <aside class="filters">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <h4 style="margin:0" data-t="lst.filters">Filters</h4>
+        <button id="fClear" class="btn btn-ghost btn-sm" style="padding:6px 10px;font-size:.78rem" data-t="lst.clear">Clear all</button>
+      </div>
+
+      <h4 data-t="lst.type">Property type</h4>
+      <div id="fTypeChips" class="chip-row">
+        <button class="chip active" data-type="" type="button"><span data-t="search.any">Any</span></button>
+        <button class="chip" data-type="apartment" type="button"><span data-t="cats.apt">Apartments</span></button>
+        <button class="chip" data-type="house" type="button"><span data-t="cats.hs">Houses</span></button>
+        <button class="chip" data-type="commercial" type="button"><span data-t="cats.cm">Commercial</span></button>
+        <button class="chip" data-type="short_term" type="button"><span data-t="cats.st">Short-term</span></button>
+      </div>
+
+      <h4 data-t="lst.price_range">Price range (€)</h4>
+      <div class="range-row">
+        <input id="minPrice" type="number" placeholder="Min" min="0">
+        <input id="maxPrice" type="number" placeholder="Max" min="0">
+      </div>
+
+      <h4 data-t="lst.rooms">Rooms</h4>
+      <div id="fRoomChips" class="chip-row">
+        <button class="chip" data-r="1" type="button">1</button>
+        <button class="chip" data-r="2" type="button">2</button>
+        <button class="chip" data-r="3" type="button">3</button>
+        <button class="chip" data-r="4" type="button">4+</button>
+      </div>
+
+      <h4 data-t="lst.area">Area (m²)</h4>
+      <div class="range-row">
+        <input id="minArea" type="number" placeholder="Min" min="0">
+        <input id="maxArea" type="number" placeholder="Max" min="0">
+      </div>
+
+      <h4 data-t="lst.district">District</h4>
+      <div id="fDistricts" class="chip-row" style="max-height:160px;overflow:auto"></div>
+
+      <h4 data-t="lst.amenities">Amenities</h4>
+      <div id="fAmenities" class="check-list" style="max-height:200px;overflow:auto"></div>
+
+      <h4 data-t="lst.source">Source</h4>
+      <div id="fSources" class="check-list" style="max-height:160px;overflow:auto"></div>
+    </aside>
+
+    <!-- RESULTS -->
+    <main>
+      <div id="mapPane" style="display:none;margin-bottom:18px"></div>
+      <div id="resultsGrid" class="listings-grid"></div>
+      <div id="pager" class="pager"></div>
+    </main>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="color:#fff">
+          <span class="brand-mark"><span>R</span></span>
+          Rent<b style="color:var(--accent)">Riga</b>
+        </div>
+        <p style="margin-top:14px;max-width:36ch" data-t="foot.tagline">Riga's premium rental aggregator. Every listing, one place.</p>
+      </div>
+      <div>
+        <h4 data-t="foot.explore">Explore</h4>
+        <a href="listings.html?type=apartment" data-t="nav.apartments">Apartments</a>
+        <a href="listings.html?type=house" data-t="nav.houses">Houses</a>
+        <a href="listings.html?type=commercial" data-t="nav.commercial">Commercial</a>
+        <a href="listings.html?type=short_term" data-t="nav.shortterm">Short-term</a>
+      </div>
+      <div>
+        <h4 data-t="foot.help">Help</h4>
+        <a href="#" data-t="foot.about">About</a>
+        <a href="#" data-t="foot.faq">FAQ</a>
+        <a href="#" data-t="foot.contact">Contact</a>
+      </div>
+      <div>
+        <h4 data-t="foot.company">Company</h4>
+        <a href="terms.html" data-t="foot.terms">Terms</a>
+        <a href="privacy.html" data-t="foot.privacy">Privacy</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="takedown.html">Takedown</a>
+        <a href="mailto:hello@rentriga.com">hello@rentriga.com</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-t="foot.rights">© 2026 RentRiga.com — All rights reserved</span>
+      <span>Made with care in Rīga</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

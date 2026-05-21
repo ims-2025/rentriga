@@ -1,0 +1,62 @@
+# RentRiga — Netlify deployment config
+# Drop the entire RentRiga/ folder into Netlify (drag-and-drop on app.netlify.com)
+# or connect a Git repo. No build step needed — the site is pure static.
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), camera=(), microphone=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Pretty URLs without .html
+[[redirects]]
+  from = "/listings"
+  to = "/listings.html"
+  status = 200
+
+[[redirects]]
+  from = "/listing/:id"
+  to = "/listing.html?id=:id"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/cookies"
+  to = "/cookies.html"
+  status = 200
+
+[[redirects]]
+  from = "/takedown"
+  to = "/takedown.html"
+  status = 200
+
+# 404
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

@@ -1,0 +1,10 @@
+# Cloudflare Pages / Netlify _redirects file
+/listings       /listings.html       200
+/listing/:id    /listing.html?id=:id 200
+/terms          /terms.html          200
+/privacy        /privacy.html        200
+/cookies        /cookies.html        200
+/takedown       /takedown.html       200
+
+# Custom 404
+/*  /404.html  404

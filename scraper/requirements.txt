@@ -1,0 +1,5 @@
+# RentRiga scraper dependencies
+beautifulsoup4>=4.12.0
+# Optional but recommended:
+#   lxml>=5.0.0       # faster parser; pass features='lxml' to BeautifulSoup
+#   requests>=2.31.0  # nicer HTTP than urllib if you want retries/sessions

@@ -1,0 +1,50 @@
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# ---- Node (only matters once you move to Next.js) ----
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.*.local
+
+# ---- Scraper output ----
+scraper/scraped*.json
+scraper/test_output.json
+scraper/*.cache/
+
+# ---- Hosting build dirs ----
+.netlify/
+.vercel/
+
+# ---- Misc ----
+*.log
+.cache/
+coverage/

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Listing — RentRiga</title>
+<meta name="description" content="Rental listing on RentRiga — aggregated from Latvia's biggest property portals.">
+<meta name="robots" content="index,follow">
+<link rel="icon" type="image/svg+xml" href="/assets/icons/icon-192.svg">
+<link rel="apple-touch-icon" href="/assets/icons/icon-512.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0d6b6b">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="js-detail">
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>R</span></span>
+      Rent<b>Riga</b>
+    </a>
+    <nav class="nav-links">
+      <a href="listings.html" data-t="nav.browse">Browse</a>
+      <a href="listings.html?type=apartment" data-t="nav.apartments">Apartments</a>
+      <a href="listings.html?type=house" data-t="nav.houses">Houses</a>
+      <a href="listings.html?type=commercial" data-t="nav.commercial">Commercial</a>
+      <a href="listings.html?type=short_term" data-t="nav.shortterm">Short-term</a>
+    </nav>
+    <div class="nav-spacer"></div>
+    <div class="nav-tools">
+      <div class="lang-switch">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="lv">LV</button>
+        <button data-lang="ru">RU</button>
+      </div>
+      <a class="btn btn-ghost btn-sm" href="#" data-t="nav.list">List your property</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <div class="crumbs">
+      <a href="index.html">RentRiga</a> &nbsp;›&nbsp;
+      <a href="listings.html" data-t="nav.browse">Browse</a> &nbsp;›&nbsp;
+      <span id="dCrumb">Listing</span>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap">
+      <div>
+        <div id="dBadges" style="margin-bottom:10px"></div>
+        <h1 id="dTitle" style="font-size:1.9rem;margin-bottom:6px">Listing title</h1>
+        <div class="muted" id="dLoc">Address, district, Rīga</div>
+      </div>
+      <div style="text-align:right">
+        <div id="dPrice" class="listing-price" style="font-size:1.8rem">€0</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container">
+    <div class="gallery" id="galleryHost"></div>
+
+    <div class="detail-layout">
+      <!-- LEFT -->
+      <div>
+        <div class="detail-block">
+          <h2 data-t="det.features">Key features</h2>
+          <div class="kvs" id="dKvs"></div>
+        </div>
+
+        <div class="detail-block">
+          <h2 data-t="det.about">About this property</h2>
+          <p id="dDesc" class="lead" style="font-size:1rem"></p>
+        </div>
+
+        <div class="detail-block">
+          <h2 data-t="det.amenities">Amenities</h2>
+          <div class="amenities-list" id="dAm"></div>
+        </div>
+
+        <div class="detail-block">
+          <h2 data-t="det.location">Location</h2>
+          <div id="dMap" style="height:280px"></div>
+        </div>
+
+        <div class="detail-block">
+          <h2 data-t="det.similar">Similar listings nearby</h2>
+          <div id="dSimilar" class="listings-grid"></div>
+        </div>
+      </div>
+
+      <!-- RIGHT: sticky contact card -->
+      <aside>
+        <div class="contact-card">
+          <div id="dPrice2" class="price-big">€0</div>
+          <p class="muted" style="margin-top:4px"><span data-t="det.contact">Contact the landlord</span></p>
+          <form id="dForm">
+            <div class="form-row"><input type="text" data-t-ph="det.your_name" placeholder="Your name" required></div>
+            <div class="form-row"><input type="email" data-t-ph="det.your_email" placeholder="Email" required></div>
+            <div class="form-row"><input type="tel" data-t-ph="det.your_phone" placeholder="Phone (optional)"></div>
+            <div class="form-row"><textarea data-t-ph="det.your_msg" placeholder="Hi, I'm interested…"></textarea></div>
+            <button type="submit" class="btn btn-primary" style="width:100%;margin-top:8px" data-t="det.send">Send enquiry</button>
+          </form>
+          <a id="dSourceLink2" class="btn btn-ghost" target="_blank" rel="noopener" style="width:100%;margin-top:10px;justify-content:center" href="#" data-t="det.view_source">View on source site →</a>
+          <div class="source-line">
+            <span data-t="det.source_note">Original listing source. RentRiga aggregates — landlord communication happens directly with</span>
+            &nbsp;<b id="dSourceName">source.lv</b> · <a id="dSourceLink" href="#" target="_blank" rel="noopener">open</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="color:#fff">
+          <span class="brand-mark"><span>R</span></span>
+          Rent<b style="color:var(--accent)">Riga</b>
+        </div>
+        <p style="margin-top:14px;max-width:36ch" data-t="foot.tagline">Riga's premium rental aggregator. Every listing, one place.</p>
+      </div>
+      <div>
+        <h4 data-t="foot.explore">Explore</h4>
+        <a href="listings.html?type=apartment" data-t="nav.apartments">Apartments</a>
+        <a href="listings.html?type=house" data-t="nav.houses">Houses</a>
+        <a href="listings.html?type=commercial" data-t="nav.commercial">Commercial</a>
+        <a href="listings.html?type=short_term" data-t="nav.shortterm">Short-term</a>
+      </div>
+      <div>
+        <h4 data-t="foot.help">Help</h4>
+        <a href="#" data-t="foot.about">About</a>
+        <a href="#" data-t="foot.faq">FAQ</a>
+        <a href="#" data-t="foot.contact">Contact</a>
+      </div>
+      <div>
+        <h4 data-t="foot.company">Company</h4>
+        <a href="terms.html" data-t="foot.terms">Terms</a>
+        <a href="privacy.html" data-t="foot.privacy">Privacy</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="takedown.html">Takedown</a>
+        <a href="mailto:hello@rentriga.com">hello@rentriga.com</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-t="foot.rights">© 2026 RentRiga.com — All rights reserved</span>
+      <span>Made with care in Rīga</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
