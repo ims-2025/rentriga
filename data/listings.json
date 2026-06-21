@@ -10,12 +10,84 @@
         "count": 160
       }
     },
-    "started_at": "2026-06-20T19:56:48Z",
+    "started_at": "2026-06-21T05:18:34Z",
     "mode": "live",
-    "finished_at": "2026-06-20T19:57:38Z",
-    "total_listings": 135
+    "finished_at": "2026-06-21T05:19:25Z",
+    "total_listings": 134
   },
   "listings": [
+    {
+      "id": "ss-lv-diomg",
+      "source_id": "diomg",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/diomg.html",
+      "type": "apartment",
+      "title": "SIA Artilērijas impērija izīrē istabu ģimenei un ne tika, istaba",
+      "district": "Centrs",
+      "street": "Artilērijas 21",
+      "price": 20.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 20.0,
+      "floor": "1/2",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1501/375241/75048190.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
+      "dedup_hash": "59e5eca61431214e"
+    },
+    {
+      "id": "ss-lv-bedbkl",
+      "source_id": "bedbkl",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/bedbkl.html",
+      "type": "apartment",
+      "title": "Jauns studio dzīvoklis Rīgas centrā. Lieliska atrašanās vieta.",
+      "district": "Centrs",
+      "street": "Kalniņa 1",
+      "price": 35.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 18.0,
+      "floor": "2/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/7/1324/330780/66155810.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
+      "dedup_hash": "f425173c0964ffce"
+    },
+    {
+      "id": "ss-lv-agljd",
+      "source_id": "agljd",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/vecmilgravis/agljd.html",
+      "type": "apartment",
+      "title": "Сдаёт собственник. Малогабаритная, уютная, светлая квартира. Низ",
+      "district": "Vecmīlgrāvis",
+      "street": "Meldru 10",
+      "price": 200.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 12.0,
+      "floor": "4/4",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1513/378046/75609028.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
+      "dedup_hash": "f7b8e4f923c0a521"
+    },
     {
       "id": "ss-lv-akeom",
       "source_id": "akeom",
@@ -36,8 +108,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "f9edb4e788f17d27"
     },
     {
@@ -60,8 +132,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "f94ec7e2f5d2201a"
     },
     {
@@ -84,33 +156,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "91448344b7959985"
-    },
-    {
-      "id": "ss-lv-dkfgk",
-      "source_id": "dkfgk",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/dkfgk.html",
-      "type": "apartment",
-      "title": "SIA Artilērijas impērija izīrē istabu ģimenei ideāls variants 2",
-      "district": "Centrs",
-      "street": "Artilērijas 21",
-      "price": 20.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 20.0,
-      "floor": "1/2",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1511/377550/75509998.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
-      "dedup_hash": "59e5eca61431214e"
     },
     {
       "id": "ss-lv-adnie",
@@ -132,8 +180,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "58a601c84a88fe41"
     },
     {
@@ -156,8 +204,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "2744a7adf1cab37b"
     },
     {
@@ -180,8 +228,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "6f669ac3df964d6f"
     },
     {
@@ -204,8 +252,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "d1317555c985bf57"
     },
     {
@@ -228,8 +276,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "3ba0b078d0ce49ca"
     },
     {
@@ -252,8 +300,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "51cfd6ec80220d86"
     },
     {
@@ -276,8 +324,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "ef8f6f5c15c7824f"
     },
     {
@@ -300,8 +348,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "4a454de5bbaffad4"
     },
     {
@@ -324,8 +372,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "8a7eedb3c1f83bc3"
     },
     {
@@ -348,8 +396,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "6958b21065dc279a"
     },
     {
@@ -372,8 +420,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "8d7a79b6aa275824"
     },
     {
@@ -396,8 +444,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "b0835019b79ccf7c"
     },
     {
@@ -420,8 +468,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "bff493f70ad9a979"
     },
     {
@@ -444,8 +492,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "9dc873a7ef1d8a5c"
     },
     {
@@ -468,8 +516,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "06262a49438acda3"
     },
     {
@@ -492,8 +540,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "eb1ab9c014f26594"
     },
     {
@@ -516,8 +564,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "100e1334d996cc2f"
     },
     {
@@ -540,8 +588,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "70abec4a5615964c"
     },
     {
@@ -564,8 +612,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "17a0d1ddb2d562c8"
     },
     {
@@ -588,8 +636,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "ab4303bc95b8f3de"
     },
     {
@@ -612,8 +660,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "877be48b55a559c2"
     },
     {
@@ -636,8 +684,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "d05d76f389a45eed"
     },
     {
@@ -660,8 +708,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:18:57Z",
+      "last_seen": "2026-06-21T05:18:57Z",
       "dedup_hash": "0e077af2813157ae"
     },
     {
@@ -684,8 +732,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "034d5d3d8e50ef55"
     },
     {
@@ -708,8 +756,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "041516ad8b37d1fe"
     },
     {
@@ -732,8 +780,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:07Z",
-      "last_seen": "2026-06-20T19:57:07Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "f90b8d568f15df28"
     },
     {
@@ -756,8 +804,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "05450ef5feae6fb1"
     },
     {
@@ -780,8 +828,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "093eddfbb5b32a57"
     },
     {
@@ -804,8 +852,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "027a58a6d088c17c"
     },
     {
@@ -828,8 +876,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "d9de0a2967b8c50b"
     },
     {
@@ -852,8 +900,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "8de62b6789d1b622"
     },
     {
@@ -876,8 +924,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "cd70ca73146545cc"
     },
     {
@@ -900,8 +948,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "895a244a898cd115"
     },
     {
@@ -924,8 +972,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "45b44bd95c314e52"
     },
     {
@@ -948,8 +996,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "038e7dabc6c8dbe0"
     },
     {
@@ -972,8 +1020,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "8a428b24e18ed5f4"
     },
     {
@@ -996,8 +1044,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "928cf1001dda70ea"
     },
     {
@@ -1020,8 +1068,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "66dbba77249b0682"
     },
     {
@@ -1044,8 +1092,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "3a17b7501c2d89f9"
     },
     {
@@ -1068,8 +1116,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "f125b9a584c3f70b"
     },
     {
@@ -1092,8 +1140,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "247dbb6e8ac5527e"
     },
     {
@@ -1116,8 +1164,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "ac796924aa49b9e6"
     },
     {
@@ -1140,8 +1188,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "5055a72eb2fafff8"
     },
     {
@@ -1164,8 +1212,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "d617be2c5167bee4"
     },
     {
@@ -1188,8 +1236,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "37139449e22679b0"
     },
     {
@@ -1212,8 +1260,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "ec9d21cbe2ff0610"
     },
     {
@@ -1236,8 +1284,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "b50c2c5fcd9f1efa"
     },
     {
@@ -1260,8 +1308,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "76f9fc70e61f4063"
     },
     {
@@ -1284,8 +1332,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "9464498cf17769d3"
     },
     {
@@ -1308,8 +1356,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "0d1f7dbf11ee5f17"
     },
     {
@@ -1332,8 +1380,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "727a33670055cc3c"
     },
     {
@@ -1356,8 +1404,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:01Z",
+      "last_seen": "2026-06-21T05:19:01Z",
       "dedup_hash": "79741c01e31ecd5c"
     },
     {
@@ -1380,8 +1428,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "ce0f82648fc1d4b0"
     },
     {
@@ -1404,8 +1452,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "05958e72d48f5454"
     },
     {
@@ -1428,8 +1476,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:11Z",
-      "last_seen": "2026-06-20T19:57:11Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "4b61727b37585d0e"
     },
     {
@@ -1452,8 +1500,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "cb9e4667b7256b98"
     },
     {
@@ -1476,8 +1524,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "89b043acb687c3f6"
     },
     {
@@ -1500,8 +1548,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "c3f9fce95f7165d7"
     },
     {
@@ -1524,8 +1572,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "4954b7e39e41e386"
     },
     {
@@ -1548,8 +1596,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "e1a5ae33d70e02a4"
     },
     {
@@ -1572,8 +1620,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "f9aeaa1216d39145"
     },
     {
@@ -1596,8 +1644,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "01faa27f569b6c45"
     },
     {
@@ -1620,8 +1668,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "6de0ea0277731c93"
     },
     {
@@ -1644,8 +1692,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "d3c6e55c4f695b65"
     },
     {
@@ -1668,8 +1716,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "4a4534cb792c55b8"
     },
     {
@@ -1692,8 +1740,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "2db44e08cd1beb91"
     },
     {
@@ -1716,8 +1764,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "ee81a10354a2fbdf"
     },
     {
@@ -1740,8 +1788,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "ce8c99c4e564c7a2"
     },
     {
@@ -1764,8 +1812,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "fb3f5e319abf0fcb"
     },
     {
@@ -1788,8 +1836,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "09eb46b60687ffd0"
     },
     {
@@ -1812,8 +1860,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "f47dc58fe08ac6fb"
     },
     {
@@ -1836,81 +1884,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
+      "first_seen": "2026-06-21T05:19:05Z",
+      "last_seen": "2026-06-21T05:19:05Z",
       "dedup_hash": "9491065d589e87fd"
-    },
-    {
-      "id": "ss-lv-hcpjx",
-      "source_id": "hcpjx",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/hcpjx.html",
-      "type": "apartment",
-      "title": "Tiek izīrēts gaišs un moderns 3 istabu dzīvoklis jaunajā premium",
-      "district": "Āgenskalns",
-      "street": "Raņķa d. 5",
-      "price": 1500.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 3,
-      "area": 76.0,
-      "floor": "2/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1512/377793/75558544.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
-      "dedup_hash": "2dd3c3b6d4a1b64b"
-    },
-    {
-      "id": "ss-lv-cfbci",
-      "source_id": "cfbci",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/cfbci.html",
-      "type": "apartment",
-      "title": "Ilgtermiņā izīrē mājīgu, gaišu un saulainu studio tipa dzīvokli",
-      "district": "Centrs",
-      "street": "Tomsona 23",
-      "price": 500.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 44.0,
-      "floor": "4/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1491/372652/74530368.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
-      "dedup_hash": "47d25bdb9636d895"
-    },
-    {
-      "id": "ss-lv-dcxeb",
-      "source_id": "dcxeb",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/dcxeb.html",
-      "type": "apartment",
-      "title": "Izīrējam plašu un mūsdienīgu 4 istabu dzīvokli ekskluzīvā namā p",
-      "district": "Centrs",
-      "street": "Pulkv. Brieža 21",
-      "price": 3500.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 4,
-      "area": 195.0,
-      "floor": "6/7",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1468/366823/73364592.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-20T19:57:15Z",
-      "last_seen": "2026-06-20T19:57:15Z",
-      "dedup_hash": "b52a89762c251b46"
     },
     {
       "id": "ss-lv-cipih",
@@ -1932,8 +1908,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "dbd002635ce26e68"
     },
     {
@@ -1956,8 +1932,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "807f97b10d32af26"
     },
     {
@@ -1980,8 +1956,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "1836d1ee4cec2729"
     },
     {
@@ -2004,8 +1980,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "039423d878670784"
     },
     {
@@ -2028,8 +2004,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "4229741b6a4252ed"
     },
     {
@@ -2052,8 +2028,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "6b4b4bdc4b736244"
     },
     {
@@ -2076,8 +2052,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "a05d7e000f783500"
     },
     {
@@ -2100,8 +2076,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "8475757dcedd991a"
     },
     {
@@ -2124,8 +2100,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "2431f6a22b4413a5"
     },
     {
@@ -2148,8 +2124,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "f61ea44f9728e3fb"
     },
     {
@@ -2172,8 +2148,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "4277569bb0bb90ce"
     },
     {
@@ -2196,8 +2172,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "00f21dfc691ff01b"
     },
     {
@@ -2220,8 +2196,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "779c65d83fcdaac3"
     },
     {
@@ -2244,8 +2220,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "ca846029413ae35a"
     },
     {
@@ -2268,8 +2244,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "edec7e743a471fc4"
     },
     {
@@ -2292,8 +2268,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "1d934108f651adbf"
     },
     {
@@ -2316,8 +2292,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "98a4c4559e9bf6de"
     },
     {
@@ -2340,8 +2316,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "c9543732fe27ad77"
     },
     {
@@ -2364,8 +2340,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "4d73c9ca249b537c"
     },
     {
@@ -2388,8 +2364,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "fb3373f2fb9063ba"
     },
     {
@@ -2412,8 +2388,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "821f794884c68a73"
     },
     {
@@ -2436,8 +2412,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "173ec4d2717015f2"
     },
     {
@@ -2460,8 +2436,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:27Z",
-      "last_seen": "2026-06-20T19:57:27Z",
+      "first_seen": "2026-06-21T05:19:13Z",
+      "last_seen": "2026-06-21T05:19:13Z",
       "dedup_hash": "d2d1969a890c38b6"
     },
     {
@@ -2484,8 +2460,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "9e3d3fca890c9d3c"
     },
     {
@@ -2508,8 +2484,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "e729671e1350ba43"
     },
     {
@@ -2532,8 +2508,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "783598cc10768062"
     },
     {
@@ -2556,8 +2532,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "72a2a9dc47ee23b9"
     },
     {
@@ -2580,8 +2556,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "fd19e41ab3666f0f"
     },
     {
@@ -2604,8 +2580,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "50a143a10e8b0ce1"
     },
     {
@@ -2628,8 +2604,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "3408b5c90ce36067"
     },
     {
@@ -2652,8 +2628,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "c37a5600d85e49f4"
     },
     {
@@ -2676,8 +2652,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "133624194960f307"
     },
     {
@@ -2700,8 +2676,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "5e8775f52bdd39d0"
     },
     {
@@ -2724,8 +2700,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "0112a28aa74b81d2"
     },
     {
@@ -2748,8 +2724,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "9e21a83173fc466a"
     },
     {
@@ -2772,8 +2748,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "b4792007824150ef"
     },
     {
@@ -2796,8 +2772,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "680e03476200ac4f"
     },
     {
@@ -2820,8 +2796,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "1bf3ed6673a33368"
     },
     {
@@ -2844,8 +2820,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "10f3c230a55e30ed"
     },
     {
@@ -2868,8 +2844,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "87e389d2fc62cc5d"
     },
     {
@@ -2892,8 +2868,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "86b98506771f56fb"
     },
     {
@@ -2916,8 +2892,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "8dc53c136e1aafe7"
     },
     {
@@ -2940,8 +2916,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "03baaa037635e915"
     },
     {
@@ -2964,8 +2940,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:30Z",
-      "last_seen": "2026-06-20T19:57:30Z",
+      "first_seen": "2026-06-21T05:19:17Z",
+      "last_seen": "2026-06-21T05:19:17Z",
       "dedup_hash": "2c884522340dff6c"
     },
     {
@@ -2988,8 +2964,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "08884e3ff5587a6b"
     },
     {
@@ -3012,8 +2988,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "ef3000523f66f8ae"
     },
     {
@@ -3036,8 +3012,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "608c7d51a410b4ce"
     },
     {
@@ -3060,8 +3036,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "6f437907302ff9c2"
     },
     {
@@ -3084,8 +3060,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "7d28318cb7d58a22"
     },
     {
@@ -3108,8 +3084,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "aa4d908dd80c8883"
     },
     {
@@ -3132,8 +3108,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "7420a113db32d633"
     },
     {
@@ -3156,8 +3132,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "b78e6f3df3a44f9c"
     },
     {
@@ -3180,8 +3156,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "7df2ab689e307c5c"
     },
     {
@@ -3204,8 +3180,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "11d12ff49ef64143"
     },
     {
@@ -3228,8 +3204,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "15b20b0ae426cf31"
     },
     {
@@ -3252,8 +3228,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-20T19:57:35Z",
-      "last_seen": "2026-06-20T19:57:35Z",
+      "first_seen": "2026-06-21T05:19:21Z",
+      "last_seen": "2026-06-21T05:19:21Z",
       "dedup_hash": "a5e18c3e893dc322"
     }
   ]
