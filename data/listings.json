@@ -10,12 +10,420 @@
         "count": 160
       }
     },
-    "started_at": "2026-06-28T09:33:03Z",
+    "started_at": "2026-06-28T14:16:26Z",
     "mode": "live",
-    "finished_at": "2026-06-28T09:33:46Z",
+    "finished_at": "2026-06-28T14:17:14Z",
     "total_listings": 145
   },
   "listings": [
+    {
+      "id": "ss-lv-ekfge",
+      "source_id": "ekfge",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/plyavnieki/ekfge.html",
+      "type": "apartment",
+      "title": "Сдаётся двухкомнатная квартира. комнаты изолированные Все удобст",
+      "district": "Pļavnieki",
+      "street": "Zemes 10",
+      "price": 270.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 50.0,
+      "floor": "9/9",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1514/378450/75689977.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "1093479d8ba11aaf"
+    },
+    {
+      "id": "ss-lv-bdffg",
+      "source_id": "bdffg",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/imanta/bdffg.html",
+      "type": "apartment",
+      "title": "Īpašnieks izīrē 2-istabu dzīvokli projektā Imantas Ozoli. Dzīv",
+      "district": "Imanta",
+      "street": "Jūrmalas g. 82",
+      "price": 600.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 47.0,
+      "floor": "2/9",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1498/374432/74886293.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "fa740e24ce02eb17"
+    },
+    {
+      "id": "ss-lv-fgikd",
+      "source_id": "fgikd",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/kengarags/fgikd.html",
+      "type": "apartment",
+      "title": "Предлагается в аренду светлая и теплая 1-комнатная квартира на 1",
+      "district": "Ķengarags",
+      "street": "Višķu 13",
+      "price": 230.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 34.0,
+      "floor": "1/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1515/378546/75709048.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "202c9917f453b8c7"
+    },
+    {
+      "id": "ss-lv-djgkg",
+      "source_id": "djgkg",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/djgkg.html",
+      "type": "apartment",
+      "title": "Izīrē mēbelētu 45 m² vienistabas dzīvokli Eveles ielā 10/12, 3.",
+      "district": "Centrs",
+      "street": "Ēveles 10/12",
+      "price": 350.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 45.0,
+      "floor": "3/9",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1497/374213/74842551.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "287da629b44001d7"
+    },
+    {
+      "id": "ss-lv-demec",
+      "source_id": "demec",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/ilguciems/demec.html",
+      "type": "apartment",
+      "title": "Ļoti silts, pilnībā labiekārtots, mēbelēts dzīvoklis ilgtermiņa",
+      "district": "Iļģuciems",
+      "street": "Kreslera 5",
+      "price": 450.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 42.0,
+      "floor": "2/4",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1515/378543/75708484.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "9d59f392afe794ef"
+    },
+    {
+      "id": "ss-lv-beehoh",
+      "source_id": "beehoh",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/beehoh.html",
+      "type": "apartment",
+      "title": "Luksus apartamenti 6 personām pašā Rīgas sirdī ar bezmaksas auto",
+      "district": "Centrs",
+      "street": "Ģertrūdes 45",
+      "price": 100.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 75.0,
+      "floor": "2/3",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/7/1380/344768/68953584.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "992837701e4c49a8"
+    },
+    {
+      "id": "ss-lv-afdxd",
+      "source_id": "afdxd",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/afdxd.html",
+      "type": "apartment",
+      "title": "На длительный срок сдаётся просторная, светлая, уютная 3-ёх комн",
+      "district": "Āgenskalns",
+      "street": "Atpūtas 2",
+      "price": 490.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 3,
+      "area": 83.0,
+      "floor": "5/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1498/374339/74867775.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "044288e41ee10a58"
+    },
+    {
+      "id": "ss-lv-cgijo",
+      "source_id": "cgijo",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/mezhciems/cgijo.html",
+      "type": "apartment",
+      "title": "No 1.07 tiek izīrēts 3-istabu dzīvoklis. Īres maksa 680 eiro mēn",
+      "district": "Unknown",
+      "street": "Mežciems Kaivas 50",
+      "price": 680.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 3,
+      "area": 70.0,
+      "floor": "1/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1515/378538/75707455.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "dc9e658faf4a33b0"
+    },
+    {
+      "id": "ss-lv-bxcxx",
+      "source_id": "bxcxx",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/imanta/bxcxx.html",
+      "type": "apartment",
+      "title": "Хозяин сдаёт квартиру на длительный срок. Удобное расположен",
+      "district": "Imanta",
+      "street": "Dammes 4",
+      "price": 270.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 36.0,
+      "floor": "4/9",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1507/376731/75346019.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "931831e15843eff2"
+    },
+    {
+      "id": "ss-lv-gmkdn",
+      "source_id": "gmkdn",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/mezhciems/gmkdn.html",
+      "type": "apartment",
+      "title": "Īpašnieks izīrē 2 izolētu istabu dzīvokli Mežciemā 602. sērijas",
+      "district": "Unknown",
+      "street": "Mežciems Eizenšteina 63",
+      "price": 350.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 51.0,
+      "floor": "8/9",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1515/378531/75706143.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "a3a5b410baad5273"
+    },
+    {
+      "id": "ss-lv-adben",
+      "source_id": "adben",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/maskavas-priekshpilseta/adben.html",
+      "type": "apartment",
+      "title": "2-istabu dzīvoklis netālu no centra. 27 m², zemais pirmais stāvs",
+      "district": "Unknown",
+      "street": "Latgales priekšpilsēta Ludzas 17",
+      "price": 360.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 27.0,
+      "floor": "1/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1425/356120/71223823.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "c38aaa95403a887c"
+    },
+    {
+      "id": "ss-lv-hgedl",
+      "source_id": "hgedl",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/kengarags/hgedl.html",
+      "type": "apartment",
+      "title": "Īpašnieks izīre iekārtotu 2-istabu dzīvokli pēc kosmētiskā remon",
+      "district": "Ķengarags",
+      "street": "Lokomotīves 36",
+      "price": 250.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 42.0,
+      "floor": "1/2",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1491/372709/74541632.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "1f892a12c026b1ea"
+    },
+    {
+      "id": "ss-lv-cxdoc",
+      "source_id": "cxdoc",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/cxdoc.html",
+      "type": "apartment",
+      "title": "Discover the stylish apartments of the renovated Ventspils Loft",
+      "district": "Āgenskalns",
+      "street": "Ventspils 63c",
+      "price": 295.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 22.0,
+      "floor": "2/3",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1443/360636/72127028.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "5e2546db4137684c"
+    },
+    {
+      "id": "ss-lv-ixjjf",
+      "source_id": "ixjjf",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/yugla/ixjjf.html",
+      "type": "apartment",
+      "title": "Сдаеться 2ком. кв. , можна аыкупить в рассрочку или снимать в ар",
+      "district": "Jugla",
+      "street": "Veldres 1",
+      "price": 260.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 47.0,
+      "floor": "4/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1482/370287/74057244.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "1da2c1f108b24130"
+    },
+    {
+      "id": "ss-lv-bknikj",
+      "source_id": "bknikj",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/imanta/bknikj.html",
+      "type": "apartment",
+      "title": "Izīrēju ilgtermiņā 2 istabu dzīvokli. Dzīvoklis atrodas 4. stāvā",
+      "district": "Imanta",
+      "street": "Slokas 217",
+      "price": 300.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 2,
+      "area": 50.0,
+      "floor": "4/5",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1515/378532/75706203.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "e0a93d1d1d01cef1"
+    },
+    {
+      "id": "ss-lv-hgoch",
+      "source_id": "hgoch",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/hgoch.html",
+      "type": "apartment",
+      "title": "В долгосрочную аренду предлагается стильная квартира в современн",
+      "district": "Centrs",
+      "street": "Birznieka-Upīša 13",
+      "price": 1500.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 3,
+      "area": 80.0,
+      "floor": "5/7",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/7/1212/302935/60586987.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "a8172baf309ba2c5"
+    },
+    {
+      "id": "ss-lv-adfgg",
+      "source_id": "adfgg",
+      "source_domain": "ss.lv",
+      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/adfgg.html",
+      "type": "apartment",
+      "title": "The attic apartments in the renovated residential complex Eco Li",
+      "district": "Āgenskalns",
+      "street": "Ventspils 63c",
+      "price": 305.0,
+      "price_unit": "per_month",
+      "currency": "EUR",
+      "rooms": 1,
+      "area": 24.0,
+      "floor": "1/1",
+      "year": null,
+      "image": "https://i.ss.lv/gallery/8/1515/378531/75706156.jpg",
+      "description": "",
+      "amenities": [],
+      "sub_type": null,
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
+      "dedup_hash": "026518998362790b"
+    },
     {
       "id": "ss-lv-bklkx",
       "source_id": "bklkx",
@@ -36,8 +444,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "febe7f759b484f05"
     },
     {
@@ -60,8 +468,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "f344c763e0a51911"
     },
     {
@@ -84,33 +492,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "0ccd1e4ea0a8b268"
-    },
-    {
-      "id": "ss-lv-hnxed",
-      "source_id": "hnxed",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/hnxed.html",
-      "type": "apartment",
-      "title": "A cozy room in a Street Art Residence is available from 01/07/20",
-      "district": "Āgenskalns",
-      "street": "Ventspils 63c",
-      "price": 305.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 22.0,
-      "floor": "1/2",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1506/376373/75274544.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
-      "dedup_hash": "5e2546db4137684c"
     },
     {
       "id": "ss-lv-angpd",
@@ -132,8 +516,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "07a47306c5dff4c2"
     },
     {
@@ -156,33 +540,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "153a394519dd7817"
-    },
-    {
-      "id": "ss-lv-dgxpl",
-      "source_id": "dgxpl",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/dgxpl.html",
-      "type": "apartment",
-      "title": "Short-term Rental, July-August: 1 Month - 400 Eur + utilities",
-      "district": "Centrs",
-      "street": "Lāčplēša 17",
-      "price": 400.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 30.0,
-      "floor": "1/6",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1436/358935/71786919.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
-      "dedup_hash": "dfae0f606ab425c6"
     },
     {
       "id": "ss-lv-hgopd",
@@ -204,8 +564,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "27f25191a4e70298"
     },
     {
@@ -228,8 +588,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "2b5da7a2a4acbc4c"
     },
     {
@@ -252,8 +612,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "debfc86b12fa8f25"
     },
     {
@@ -276,8 +636,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "56addbb4fe062019"
     },
     {
@@ -300,8 +660,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "01bdcc5f2d8c740e"
     },
     {
@@ -324,8 +684,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "3bb4d3fbc26753b6"
     },
     {
@@ -348,8 +708,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:44Z",
+      "last_seen": "2026-06-28T14:16:44Z",
       "dedup_hash": "b027847c1fb6987e"
     },
     {
@@ -372,8 +732,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "5123549e8445ac2f"
     },
     {
@@ -396,8 +756,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "ea6e297683949ff8"
     },
     {
@@ -420,8 +780,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "5dbfc3864a1397dd"
     },
     {
@@ -444,8 +804,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "32a2588706d938d8"
     },
     {
@@ -468,8 +828,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "ffda25e74c4bea89"
     },
     {
@@ -492,8 +852,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "79a772941ec312c6"
     },
     {
@@ -516,8 +876,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "93f76d33b43f3bac"
     },
     {
@@ -540,8 +900,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "200e8db88ea64959"
     },
     {
@@ -564,8 +924,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "b910ad639ed51b7c"
     },
     {
@@ -588,8 +948,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "f0fc249f16017737"
     },
     {
@@ -612,8 +972,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "0d4af4ce7ebf61ef"
     },
     {
@@ -636,8 +996,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "ccffed7e628352d4"
     },
     {
@@ -660,8 +1020,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "dc481823ded45d80"
     },
     {
@@ -684,8 +1044,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "67e756bf00c2d7d7"
     },
     {
@@ -708,8 +1068,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "5cfcf280711c382b"
     },
     {
@@ -732,8 +1092,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:19Z",
-      "last_seen": "2026-06-28T09:33:19Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "acb6255dd734609b"
     },
     {
@@ -756,8 +1116,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "3e7fd555d7f35c68"
     },
     {
@@ -780,8 +1140,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "89d51c50efb616d3"
     },
     {
@@ -804,8 +1164,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "4ad194b7ce9ce225"
     },
     {
@@ -828,8 +1188,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "ca5fbf8054968e53"
     },
     {
@@ -852,8 +1212,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "3f068393ef6e4791"
     },
     {
@@ -876,8 +1236,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "48e8d05e341a9aef"
     },
     {
@@ -900,8 +1260,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "cfc3a98909bcec34"
     },
     {
@@ -924,8 +1284,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "ac3b1403bbcd0b35"
     },
     {
@@ -948,8 +1308,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "34997f18c3524d35"
     },
     {
@@ -972,8 +1332,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "54153aa2c94ecfed"
     },
     {
@@ -996,8 +1356,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "331f1dcb53aceb76"
     },
     {
@@ -1020,8 +1380,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "0e840297c8a77d6e"
     },
     {
@@ -1044,8 +1404,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "bf5401787d2685e4"
     },
     {
@@ -1068,8 +1428,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:49Z",
+      "last_seen": "2026-06-28T14:16:49Z",
       "dedup_hash": "742fb32bc79d0626"
     },
     {
@@ -1092,8 +1452,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "f9dcd62ce691cc6f"
     },
     {
@@ -1116,8 +1476,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "30a311ce34cbd3db"
     },
     {
@@ -1140,8 +1500,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "a8b6ab3ae396145f"
     },
     {
@@ -1164,8 +1524,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "3db24d4930e109e7"
     },
     {
@@ -1188,8 +1548,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "e9c350b6e50e9b6e"
     },
     {
@@ -1212,8 +1572,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "00c10ea8723c5e40"
     },
     {
@@ -1236,8 +1596,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "8da26206aebfcb34"
     },
     {
@@ -1260,33 +1620,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "fa2a26b404a2b280"
-    },
-    {
-      "id": "ss-lv-dgooe",
-      "source_id": "dgooe",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/maskavas-priekshpilseta/dgooe.html",
-      "type": "apartment",
-      "title": "Elegants dzīvoklis, dzelzs durvis, augstie griesti. Dzīvoklis mē",
-      "district": "Unknown",
-      "street": "Latgales priekšpilsēta Lomonosova 12",
-      "price": 280.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 36.0,
-      "floor": "3/4",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378463/75692483.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
-      "dedup_hash": "2e3fea72b6dffe9f"
     },
     {
       "id": "ss-lv-agfgh",
@@ -1308,8 +1644,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "06e6cd3c678e263f"
     },
     {
@@ -1332,33 +1668,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "d422514a98cf4293"
-    },
-    {
-      "id": "ss-lv-hnbcl",
-      "source_id": "hnbcl",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/hnbcl.html",
-      "type": "apartment",
-      "title": "Tiek piedāvāts īrei ar1.07 labiekārtots 2 istabu dzīvoklis , daļ",
-      "district": "Āgenskalns",
-      "street": "Alīses 8",
-      "price": 350.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 47.0,
-      "floor": "2/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/7/1392/347794/69558680.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
-      "dedup_hash": "8d0598956b724bdf"
     },
     {
       "id": "ss-lv-bfxolh",
@@ -1380,8 +1692,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "ff2674c4172ded25"
     },
     {
@@ -1404,8 +1716,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "c59184d02948f9de"
     },
     {
@@ -1428,8 +1740,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "4a6a022ee48de4e9"
     },
     {
@@ -1452,8 +1764,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:23Z",
-      "last_seen": "2026-06-28T09:33:23Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "ef05008a23c9012e"
     },
     {
@@ -1476,8 +1788,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "f1be39f62e5eb163"
     },
     {
@@ -1500,8 +1812,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "ada791c79f935b85"
     },
     {
@@ -1524,8 +1836,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "f66c765ed5e7dfc0"
     },
     {
@@ -1548,8 +1860,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "a085a06e5a226ef8"
     },
     {
@@ -1572,8 +1884,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "81d79588860ed5e3"
     },
     {
@@ -1596,321 +1908,9 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
+      "first_seen": "2026-06-28T14:16:53Z",
+      "last_seen": "2026-06-28T14:16:53Z",
       "dedup_hash": "34d70364b86f85bf"
-    },
-    {
-      "id": "ss-lv-docbi",
-      "source_id": "docbi",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/docbi.html",
-      "type": "apartment",
-      "title": "Īrei piedāvāts dzīvoklis vēstniecības rajonā - klusajā centrā. B",
-      "district": "Centrs",
-      "street": "Eksporta 4",
-      "price": 380.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 30.0,
-      "floor": "1/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1447/361743/72348568.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "85dc5774c4d0e460"
-    },
-    {
-      "id": "ss-lv-dcfol",
-      "source_id": "dcfol",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/dcfol.html",
-      "type": "apartment",
-      "title": "Izīrē tikko izremontēto 2-istabu dzīvokli. Centrāla apkure. Iebū",
-      "district": "Centrs",
-      "street": "Lāčplēša 118",
-      "price": 330.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 29.0,
-      "floor": "4/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378444/75688685.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "d5a2d37c09df3776"
-    },
-    {
-      "id": "ss-lv-cggode",
-      "source_id": "cggode",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/teika/cggode.html",
-      "type": "apartment",
-      "title": "Сдаётся 2-комнатная квартира с лоджией. Светлая и уютная ква",
-      "district": "Teika",
-      "street": "Zemgala 80",
-      "price": 850.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 60.0,
-      "floor": "4/12",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1503/375513/75102550.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "b3bf14bf073be96e"
-    },
-    {
-      "id": "ss-lv-efkdm",
-      "source_id": "efkdm",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/purvciems/efkdm.html",
-      "type": "apartment",
-      "title": "Сдаётся одна отдельная комната в 3-комнатной квартире одному чел",
-      "district": "Purvciems",
-      "street": "Deglava 104",
-      "price": 175.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 77.0,
-      "floor": "9/8",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/7/1357/339172/67834337.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "1620f7da5f58debd"
-    },
-    {
-      "id": "ss-lv-ggpbe",
-      "source_id": "ggpbe",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/imanta/ggpbe.html",
-      "type": "apartment",
-      "title": "Izīrē 3 istabu dzīvokli Imantā (~54 m²) Izīrē gaišu un saulai",
-      "district": "Imanta",
-      "street": "Zentenes 26",
-      "price": 330.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 3,
-      "area": 54.0,
-      "floor": "4/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378441/75688182.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "81aea4b0b88c49e9"
-    },
-    {
-      "id": "ss-lv-ammpn",
-      "source_id": "ammpn",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/ammpn.html",
-      "type": "apartment",
-      "title": "Īpašnieks izīrē studio tipa dzīvokli . Pieejam video tūre .",
-      "district": "Centrs",
-      "street": "Brīvības 174",
-      "price": 335.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 22.0,
-      "floor": "2/2",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378441/75688130.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "3dff8ddbe0b42cd9"
-    },
-    {
-      "id": "ss-lv-aefgk",
-      "source_id": "aefgk",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aefgk.html",
-      "type": "apartment",
-      "title": "Īpašnieks izīrē studio tipa dzīvokli . Pieejams no 03.07.2026",
-      "district": "Centrs",
-      "street": "Brīvības 176",
-      "price": 285.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 16.0,
-      "floor": "2/3",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378441/75688054.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "388ac5b26b7b11b3"
-    },
-    {
-      "id": "ss-lv-bnbjic",
-      "source_id": "bnbjic",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/vecmilgravis/bnbjic.html",
-      "type": "apartment",
-      "title": "Izīrē 2.istabu dzīvokli ar izolētām istabām, ar visām ērtībām un",
-      "district": "Vecmīlgrāvis",
-      "street": "Emmas 9",
-      "price": 320.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 40.0,
-      "floor": "4/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378432/75686380.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "ee28e69be261134a"
-    },
-    {
-      "id": "ss-lv-blgnfx",
-      "source_id": "blgnfx",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/bierini/blgnfx.html",
-      "type": "apartment",
-      "title": "Dzīvoklis atrodas otrajā stāvā ar atsevišķu ieeju. Piemērots",
-      "district": "Unknown",
-      "street": "Bieriņi Pampāļu 1a",
-      "price": 255.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 38.0,
-      "floor": "1/2",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378438/75687588.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "a336a985e9d7dd03"
-    },
-    {
-      "id": "ss-lv-bokml",
-      "source_id": "bokml",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/kengarags/bokml.html",
-      "type": "apartment",
-      "title": "Ar 01.07.2026. tiek izīrēts gaišs, mājīgs un labiekārtots 2-ista",
-      "district": "Ķengarags",
-      "street": "Prūšu 22 k-3",
-      "price": 350.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 41.0,
-      "floor": "2/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378429/75685754.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "c9a73abaedbd1bad"
-    },
-    {
-      "id": "ss-lv-affbm",
-      "source_id": "affbm",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/agenskalns/affbm.html",
-      "type": "apartment",
-      "title": "Собственник сдает двухкомнатную квартиру. Стоимость аренды 300",
-      "district": "Āgenskalns",
-      "street": "Baldones 26",
-      "price": 300.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 39.0,
-      "floor": "2/5",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378419/75683624.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "3e35a100117edd89"
-    },
-    {
-      "id": "ss-lv-afdfb",
-      "source_id": "afdfb",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afdfb.html",
-      "type": "apartment",
-      "title": "SIA Artilērijas impērija izīrē istabu ģimenei un ne tika, istaba",
-      "district": "Centrs",
-      "street": "Artilērijas 21",
-      "price": 20.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 1,
-      "area": 20.0,
-      "floor": "1/2",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1428/356920/71383802.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "59e5eca61431214e"
-    },
-    {
-      "id": "ss-lv-cepfcd",
-      "source_id": "cepfcd",
-      "source_domain": "ss.lv",
-      "source_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/ziepniekkalns/cepfcd.html",
-      "type": "apartment",
-      "title": "Tiek izīrēts dzīvoklis ar mēbelēm un sadzīves tehniku. Ir uzstād",
-      "district": "Ziepniekkalns",
-      "street": "Ziepniekkalna 65",
-      "price": 440.0,
-      "price_unit": "per_month",
-      "currency": "EUR",
-      "rooms": 2,
-      "area": 57.0,
-      "floor": "7/10",
-      "year": null,
-      "image": "https://i.ss.lv/gallery/8/1514/378435/75686951.jpg",
-      "description": "",
-      "amenities": [],
-      "sub_type": null,
-      "first_seen": "2026-06-28T09:33:27Z",
-      "last_seen": "2026-06-28T09:33:27Z",
-      "dedup_hash": "76638008901c805d"
     },
     {
       "id": "ss-lv-blflg",
@@ -1932,8 +1932,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "6bd029a092ca4158"
     },
     {
@@ -1956,8 +1956,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "430f0ba5d7619dce"
     },
     {
@@ -1980,8 +1980,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "8dc53c136e1aafe7"
     },
     {
@@ -2004,8 +2004,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "c4ac1061bcc0c9ae"
     },
     {
@@ -2028,8 +2028,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "151abf5e2d28c798"
     },
     {
@@ -2052,8 +2052,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "ca846029413ae35a"
     },
     {
@@ -2076,8 +2076,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "13ad34e2752b7ba6"
     },
     {
@@ -2100,8 +2100,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "148f81dd03863009"
     },
     {
@@ -2124,8 +2124,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "b4792007824150ef"
     },
     {
@@ -2148,8 +2148,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "c126af5a1e48d1aa"
     },
     {
@@ -2172,8 +2172,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "535135de7d39f357"
     },
     {
@@ -2196,8 +2196,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "2431f6a22b4413a5"
     },
     {
@@ -2220,8 +2220,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "025a6774df1fba78"
     },
     {
@@ -2244,8 +2244,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "22367aae452c887d"
     },
     {
@@ -2268,8 +2268,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "0e099cefd863d6f3"
     },
     {
@@ -2292,8 +2292,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "ad747afd09d19f7a"
     },
     {
@@ -2316,8 +2316,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "c2ab565f2d58960d"
     },
     {
@@ -2340,8 +2340,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "98786b9a6f17106f"
     },
     {
@@ -2364,8 +2364,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "9c169fd91981b3e3"
     },
     {
@@ -2388,8 +2388,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "9f28b8b90c402d31"
     },
     {
@@ -2412,8 +2412,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "5e8775f52bdd39d0"
     },
     {
@@ -2436,8 +2436,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "e6332273ba0535a4"
     },
     {
@@ -2460,8 +2460,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "15188b3d90154bf8"
     },
     {
@@ -2484,8 +2484,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "5d3c1ae529480c1d"
     },
     {
@@ -2508,8 +2508,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:34Z",
-      "last_seen": "2026-06-28T09:33:34Z",
+      "first_seen": "2026-06-28T14:17:01Z",
+      "last_seen": "2026-06-28T14:17:01Z",
       "dedup_hash": "143730ab105f991d"
     },
     {
@@ -2532,8 +2532,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "6b4b4bdc4b736244"
     },
     {
@@ -2556,8 +2556,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "3408b5c90ce36067"
     },
     {
@@ -2580,8 +2580,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "6851133bb4b0b4a9"
     },
     {
@@ -2604,8 +2604,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "c9543732fe27ad77"
     },
     {
@@ -2628,8 +2628,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "19e407e3e621b6fd"
     },
     {
@@ -2652,8 +2652,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "467a068762e0a7c5"
     },
     {
@@ -2676,8 +2676,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "bd411bf9ec8e6c75"
     },
     {
@@ -2700,8 +2700,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "779c65d83fcdaac3"
     },
     {
@@ -2724,8 +2724,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "50a143a10e8b0ce1"
     },
     {
@@ -2748,8 +2748,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "d2d1969a890c38b6"
     },
     {
@@ -2772,8 +2772,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "381f8f21a1abbd15"
     },
     {
@@ -2796,8 +2796,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "d8f6fe6097259206"
     },
     {
@@ -2820,8 +2820,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "d2080f6695d0b992"
     },
     {
@@ -2844,8 +2844,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "0e358efa265a67ba"
     },
     {
@@ -2868,8 +2868,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "3468d4dbe7ef4ab7"
     },
     {
@@ -2892,8 +2892,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "a2cf24757539a6ee"
     },
     {
@@ -2916,8 +2916,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "db9dfee37d3c5cac"
     },
     {
@@ -2940,8 +2940,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "94a8b3bb65e37f71"
     },
     {
@@ -2964,8 +2964,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "9ef4bd061dd6b8f2"
     },
     {
@@ -2988,8 +2988,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "f22e18ee943de3dd"
     },
     {
@@ -3012,8 +3012,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "ccb850a36015fbf7"
     },
     {
@@ -3036,8 +3036,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "d985ddfce2a1c159"
     },
     {
@@ -3060,8 +3060,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:38Z",
-      "last_seen": "2026-06-28T09:33:38Z",
+      "first_seen": "2026-06-28T14:17:05Z",
+      "last_seen": "2026-06-28T14:17:05Z",
       "dedup_hash": "7d0b7d46b192cfa5"
     },
     {
@@ -3084,8 +3084,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "a257e3e21678cce3"
     },
     {
@@ -3108,8 +3108,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "7b17622032bfb095"
     },
     {
@@ -3132,8 +3132,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "5f2fea56b50263ad"
     },
     {
@@ -3156,8 +3156,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "a6d272131487da36"
     },
     {
@@ -3180,8 +3180,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "37c30a310ed4e830"
     },
     {
@@ -3204,8 +3204,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "b57378d9cdf7e433"
     },
     {
@@ -3228,8 +3228,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "f2dcd7f18def1fbb"
     },
     {
@@ -3252,8 +3252,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "2330d8bd0b375a89"
     },
     {
@@ -3276,8 +3276,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "908557df8f2c4d1e"
     },
     {
@@ -3300,8 +3300,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "89be32f8b95e431d"
     },
     {
@@ -3324,8 +3324,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "c9f6072d80ae6c12"
     },
     {
@@ -3348,8 +3348,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "bd4fe37c69dcbc5d"
     },
     {
@@ -3372,8 +3372,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "27bed14489f59c22"
     },
     {
@@ -3396,8 +3396,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "596f4e8ba153335a"
     },
     {
@@ -3420,8 +3420,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "859206c333b7b667"
     },
     {
@@ -3444,8 +3444,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "0336e5b6a3653086"
     },
     {
@@ -3468,8 +3468,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "0a4a2b371871c987"
     },
     {
@@ -3492,8 +3492,8 @@
       "description": "",
       "amenities": [],
       "sub_type": null,
-      "first_seen": "2026-06-28T09:33:42Z",
-      "last_seen": "2026-06-28T09:33:42Z",
+      "first_seen": "2026-06-28T14:17:10Z",
+      "last_seen": "2026-06-28T14:17:10Z",
       "dedup_hash": "522d52c16e46524f"
     }
   ]
