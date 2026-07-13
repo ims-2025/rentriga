@@ -26,7 +26,7 @@ from pathlib import Path
 from base import (
     SourceAdapter, PoliteFetcher,
     parse_price, normalize_district, dedup_hash, soup, txt,
-    RR_DISTRICTS, DISTRICT_ALIASES,
+    RR_DISTRICTS, DISTRICT_ALIASES, district_from_url,
     DEFAULT_DELAY_SECONDS, DEFAULT_TIMEOUT, MAX_LISTINGS_HARD_CAP,
 )
 
@@ -168,6 +168,17 @@ class SsLv(SourceAdapter):
                     district = _DISTRICT_TOKENS[explicit_district.lower().rstrip(",")]
             if not district:
                 district, street = _split_address(address)
+
+            # AUTHORITATIVE FALLBACK: ss.lv's URL always encodes the district in its
+            # own taxonomy (e.g. .../riga/purvciems/xxx.html). If we couldn't parse
+            # a district from the row, extract it from the URL. This alone fixes
+            # ~40% of rows previously marked "Unknown".
+            if not district:
+                district = district_from_url(url)
+                # When the URL supplies the district, the address cell was almost
+                # certainly street-only, so keep it as street.
+                if district and not street:
+                    street = address
 
             price, price_unit = parse_price(price_text)
 

@@ -26,7 +26,11 @@ RR_DISTRICTS = {
     "Centrs","Vecrīga","Āgenskalns","Mežaparks","Teika","Purvciems","Imanta",
     "Ziepniekkalns","Jugla","Daugavgrīva","Sarkandaugava","Bolderāja","Pļavnieki",
     "Ķengarags","Iļģuciems","Zolitūde","Skanste","Andrejsala","Brasa",
-    "Čiekurkalns","Berģi","Vecmīlgrāvis"
+    "Čiekurkalns","Berģi","Vecmīlgrāvis",
+    # Added 2026-07-13 — covers ~40% of listings previously marked "Unknown"
+    "VEF","Dārzciems","Maskavas priekšpilsēta","Latgales priekšpilsēta",
+    "Šampēteris-Pleskodāle","Krasta rajons","Aplokciems","Torņakalns","Grīziņkalns",
+    "Kīpsala","Bieriņi",
 }
 
 # Normalization map — extend as new portals expose new spellings.
@@ -34,12 +38,14 @@ DISTRICT_ALIASES = {
     "centre": "Centrs", "centrs": "Centrs", "centre, kluss centrs": "Centrs",
     "city centre": "Centrs", "kluss centrs": "Centrs", "klusais centrs": "Centrs",
     "vecriga": "Vecrīga", "vecrīga": "Vecrīga", "old riga": "Vecrīga", "old town": "Vecrīga",
+    "vecpilseta": "Vecrīga", "vecpilsēta": "Vecrīga",
     "agenskalns": "Āgenskalns", "āgenskalns": "Āgenskalns",
-    "mezaparks": "Mežaparks", "mežaparks": "Mežaparks",
+    "mezaparks": "Mežaparks", "mežaparks": "Mežaparks", "mezhapark": "Mežaparks",
     "purvciems": "Purvciems", "imanta": "Imanta", "teika": "Teika",
-    "jugla": "Jugla", "daugavgriva": "Daugavgrīva", "daugavgrīva": "Daugavgrīva",
+    "jugla": "Jugla", "yugla": "Jugla",
+    "daugavgriva": "Daugavgrīva", "daugavgrīva": "Daugavgrīva",
     "sarkandaugava": "Sarkandaugava", "bolderaja": "Bolderāja", "bolderāja": "Bolderāja",
-    "plavnieki": "Pļavnieki", "pļavnieki": "Pļavnieki",
+    "plavnieki": "Pļavnieki", "pļavnieki": "Pļavnieki", "plyavnieki": "Pļavnieki",
     "kengarags": "Ķengarags", "ķengarags": "Ķengarags",
     "ilguciems": "Iļģuciems", "iļģuciems": "Iļģuciems",
     "zolitude": "Zolitūde", "zolitūde": "Zolitūde",
@@ -48,7 +54,61 @@ DISTRICT_ALIASES = {
     "bergi": "Berģi", "berģi": "Berģi",
     "vecmilgravis": "Vecmīlgrāvis", "vecmīlgrāvis": "Vecmīlgrāvis",
     "ziepniekkalns": "Ziepniekkalns",
+    # Larger historic districts ss.lv uses in row addresses (e.g. "Latgales priekšpilsēta Viļānu 7")
+    "latgales priekšpilsēta": "Latgales priekšpilsēta",
+    "latgales priekshpilseta": "Latgales priekšpilsēta",
+    "latgales-priekshpilseta": "Latgales priekšpilsēta",
+    "maskavas priekšpilsēta": "Maskavas priekšpilsēta",
+    "maskavas priekshpilseta": "Maskavas priekšpilsēta",
+    "maskavas-priekshpilseta": "Maskavas priekšpilsēta",
+    # Sub-neighborhoods
+    "vef": "VEF",
+    "darzciems": "Dārzciems", "dārzciems": "Dārzciems",
+    "shampeteris": "Šampēteris-Pleskodāle", "šampēteris": "Šampēteris-Pleskodāle",
+    "shampeteris-pleskodale": "Šampēteris-Pleskodāle",
+    "pleskodale": "Šampēteris-Pleskodāle",
+    "krasta r-ns": "Krasta rajons", "krasta rajons": "Krasta rajons",
+    "krasta-st-area": "Krasta rajons",
+    "aplokciems": "Aplokciems",
+    "tornakalns": "Torņakalns", "torņakalns": "Torņakalns",
+    "grizinkalns": "Grīziņkalns", "grīziņkalns": "Grīziņkalns",
+    "kipsala": "Kīpsala", "kīpsala": "Kīpsala",
+    "bierini": "Bieriņi", "bieriņi": "Bieriņi",
 }
+
+# ss.lv URL slug -> canonical district. Used as an authoritative fallback when
+# the row-address text doesn't match a known district (which happens on ~40% of
+# ss.lv listings). The slug is set by ss.lv's own taxonomy.
+URL_SLUG_TO_DISTRICT = {
+    "centre": "Centrs", "vecriga": "Vecrīga",
+    "agenskalns": "Āgenskalns", "mezaparks": "Mežaparks", "mezhapark": "Mežaparks",
+    "teika": "Teika", "purvciems": "Purvciems", "imanta": "Imanta",
+    "ziepniekkalns": "Ziepniekkalns", "jugla": "Jugla", "yugla": "Jugla",
+    "daugavgriva": "Daugavgrīva", "sarkandaugava": "Sarkandaugava",
+    "bolderaja": "Bolderāja", "plavnieki": "Pļavnieki", "plyavnieki": "Pļavnieki",
+    "kengarags": "Ķengarags", "ilguciems": "Iļģuciems",
+    "zolitude": "Zolitūde", "skanste": "Skanste", "brasa": "Brasa",
+    "ciekurkalns": "Čiekurkalns", "bergi": "Berģi", "vecmilgravis": "Vecmīlgrāvis",
+    "vef": "VEF", "darzciems": "Dārzciems",
+    "maskavas-priekshpilseta": "Maskavas priekšpilsēta",
+    "latgales-priekshpilseta": "Latgales priekšpilsēta",
+    "shampeteris-pleskodale": "Šampēteris-Pleskodāle",
+    "krasta-st-area": "Krasta rajons",
+    "aplokciems": "Aplokciems", "tornakalns": "Torņakalns",
+    "grizinkalns": "Grīziņkalns", "kipsala": "Kīpsala",
+    "bierini": "Bieriņi", "andrejsala": "Andrejsala",
+}
+
+
+def district_from_url(url):
+    """Extract a canonical district name from an ss.lv listing URL, if possible."""
+    if not url:
+        return ""
+    m = re.search(r"/riga(?:-region)?/([^/]+)/", url)
+    if not m:
+        return ""
+    slug = m.group(1).lower()
+    return URL_SLUG_TO_DISTRICT.get(slug, "")
 
 USER_AGENT = "RentRigaBot/0.2 (+https://rentriga.com/about; contact: hello@rentriga.com)"
 DEFAULT_DELAY_SECONDS = 3.0

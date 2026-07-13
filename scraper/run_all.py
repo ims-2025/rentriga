@@ -48,10 +48,11 @@ TYPES_PER_SOURCE = {
 }
 
 # How many index pages to crawl per source per category.
-# ss.lv shows ~30 listings/page; 4 pages * 4 categories ≈ 480 listings before dedup.
+# ss.lv shows ~30 listings/page; 6 pages * 4 categories ≈ 720 listings before dedup.
+# Higher counts increase our chance of hitting ~250 unique listings after dedup.
 PAGES_PER_SOURCE = {
-    "ss.lv":       4,
-    "varianti.lv": 2,
+    "ss.lv":       6,
+    "varianti.lv": 3,
 }
 
 # Local fixture paths for --fixtures mode (offline smoke test)

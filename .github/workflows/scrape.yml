@@ -1,9 +1,11 @@
 name: Scrape sources and update listings
 
 on:
-  # Every 6 hours. Cron uses UTC. Adjust if you want different cadence.
+  # Every 3 hours (8 runs/day). Cron uses UTC. GitHub Actions cron often skips or
+  # delays scheduled runs by 15-60min under load, so scheduling more frequently
+  # than once/6h gives us redundancy — one missed run doesn't mean stale listings.
   schedule:
-    - cron: "15 */6 * * *"
+    - cron: "15 */3 * * *"
   # Allow manual triggering from the Actions tab
   workflow_dispatch:
     inputs:
